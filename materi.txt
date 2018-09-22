@@ -160,4 +160,70 @@ F:\try git>spool c:\adry.txt
 'spool' is not recognized as an internal or external command,
 operable program or batch file.
 
+
+F:\try git>git checkout master
+Already on 'master'
+M       index.txt
+
+F:\try git>git remote add origin https://github.com/adryfarhan/belajar.git
+
+F:\try git>git push -u origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (9/9), 672 bytes | 112.00 KiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/adryfarhan/belajar/pull/new/master
+remote:
+To https://github.com/adryfarhan/belajar.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+F:\try git>git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+F:\try git>git add .
+
+F:\try git>git commit -m "tambah readme"
+[master 9861b5e] tambah readme
+ 2 files changed, 165 insertions(+), 1 deletion(-)
+ create mode 100644 materi.txt
+
+F:\try git>git push -u origin master
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 1.39 KiB | 473.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/adryfarhan/belajar.git
+   a1d0714..9861b5e  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+F:\try git>git add README.txt
+
+F:\try git>git commit -m "tambah readme"
+[master caf6554] tambah readme
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.txt
+
+F:\try git>git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 306 bytes | 102.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/adryfarhan/belajar.git
+   9861b5e..caf6554  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+F:\try git>test-output.txt
+'test-output.txt' is not recognized as an internal or external command,
+operable program or batch file.
+
 F:\try git>
