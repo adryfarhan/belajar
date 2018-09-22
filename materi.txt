@@ -1,0 +1,163 @@
+Microsoft Windows [Version 10.0.17134.285]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\Adryfarhan>cd f:
+F:\
+
+C:\Users\Adryfarhan>cd "try git"
+The system cannot find the path specified.
+
+C:\Users\Adryfarhan>cd f:
+F:\
+
+C:\Users\Adryfarhan>cd "rian":
+The filename, directory name, or volume label syntax is incorrect.
+
+C:\Users\Adryfarhan>cd "rian"
+The system cannot find the path specified.
+
+C:\Users\Adryfarhan>f:
+
+F:\>cd "try git"
+
+F:\try git>git init
+Initialized empty Git repository in F:/try git/.git/
+
+F:\try git>git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+F:\try git>git add .
+
+F:\try git>git commit -m "menambah daftar coba"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Adryfarhan@DESKTOP-7T7FKB4.(none)')
+
+F:\try git>git confiq --global user.email "adryfarhanm@gmail.com"
+git: 'confiq' is not a git command. See 'git --help'.
+
+The most similar command is
+        config
+
+F:\try git>git confiq --global user.name "adryfarhan"
+git: 'confiq' is not a git command. See 'git --help'.
+
+The most similar command is
+        config
+
+F:\try git>clear screen
+'clear' is not recognized as an internal or external command,
+operable program or batch file.
+
+F:\try git>clearscreen
+'clearscreen' is not recognized as an internal or external command,
+operable program or batch file.
+
+F:\try git>git config --global user.name "adryfarhan"
+
+F:\try git>git config --global user.email "adryfarhanm@gmail.com"
+
+F:\try git>git add .
+
+F:\try git>git commit -m "menambah daftar coba"
+[master (root-commit) 488928a] menambah daftar coba
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.txt
+
+F:\try git>git log
+commit 488928a86e75ea673d5be311306f8292cabcb52b (HEAD -> master)
+Author: adryfarhan <adryfarhanm@gmail.com>
+Date:   Sat Sep 22 11:34:04 2018 +0700
+
+    menambah daftar coba
+
+F:\try git>git add .
+
+F:\try git>git status
+On branch master
+nothing to commit, working tree clean
+
+F:\try git>git commit -m "menambah daftar coba2"
+On branch master
+nothing to commit, working tree clean
+
+F:\try git>git add .
+
+F:\try git>git commit -m "menambah daftar coba2"
+[master bc98004] menambah daftar coba2
+ 1 file changed, 1 insertion(+)
+
+F:\try git>git diff
+
+F:\try git>git diff
+diff --git a/index.txt b/index.txt
+index 369c1d2..3c3bc3d 100644
+--- a/index.txt
++++ b/index.txt
+@@ -1 +1 @@
+-isi apa gitu
+\ No newline at end of file
++isi apa gitu tambah
+\ No newline at end of file
+
+F:\try git>git diff
+diff --git a/index.txt b/index.txt
+index 369c1d2..b343637 100644
+--- a/index.txt
++++ b/index.txt
+@@ -1 +1 @@
+-isi apa gitu
+\ No newline at end of file
++telah diubah
+\ No newline at end of file
+
+F:\try git>git diff
+diff --git a/index.txt b/index.txt
+index 369c1d2..f2b05f7 100644
+--- a/index.txt
++++ b/index.txt
+@@ -1 +1,2 @@
+-isi apa gitu
+\ No newline at end of file
++telah diubah
++coba line 2
+\ No newline at end of file
+
+F:\try git>git add .
+
+F:\try git>git commit -m "menambah daftar coba3"
+[master a1d0714] menambah daftar coba3
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+F:\try git>git diff
+
+F:\try git>git diff
+
+F:\try git>git diff
+diff --git a/index.txt b/index.txt
+index f2b05f7..7dbbac7 100644
+--- a/index.txt
++++ b/index.txt
+@@ -1,2 +1,3 @@
+ telah diubah
+-coba line 2
+\ No newline at end of file
++coba line 2
++coba line 3
+\ No newline at end of file
+
+F:\try git>spool c:\adry.txt
+'spool' is not recognized as an internal or external command,
+operable program or batch file.
+
+F:\try git>
